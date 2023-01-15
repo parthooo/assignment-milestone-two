@@ -114,6 +114,29 @@
   .sponsor-company img {
     margin-top: 30px;
   }
+
+
+/* ----------------------
+       Contact Us Section 
+   ----------------------*/
+
+  .contact-us{
+    flex-direction: column-reverse;
+  }
+ .contact-us .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .contact-us .left-side::before{
+   display: none;
+ }
+ .contact-us .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
 }
 
 
@@ -233,4 +256,13 @@
   .sponsor-company img {
     margin-top: 30px;
   }
+
+/* ----------------------
+       Contact Us Section 
+   ----------------------*/
+
+  .contact-us .right-side{
+    width: 75%;
+    margin-left: 55px;
+ }
 }

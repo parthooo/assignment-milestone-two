@@ -1,3 +1,7 @@
+/* ============================
+       Mobile Device Responsive 
+ =================================== */
+
 @media screen and (max-width: 576px) {
   /* ---------------------
        Header Section 
@@ -33,6 +37,134 @@
     text-align: center;
     padding: 0px;
     margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-text h3{
+    font-weight: 600;
+    font-size: 35px;
+    width: 70%;
+  }
+
+  /* -------------------------------
+     Features Love & Enjoy Section 
+   --------------------------------*/
+
+  .core-features {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .core-features-text {
+    width: 100%;
+  }
+  .core-feature-image {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .core-feature-experience {
+    position: initial;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* -------------------------------
+     Facts Section 
+   --------------------------------*/
+  .facts {
+    margin-top: 90px;
+  }
+  .facts-title h3 {
+    font-size: 30px;
+  }
+  .facts-cards {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .facts-single-card {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .facts-single-card:hover {
+    cursor: pointer;
+    margin-top: 60px;
+    box-shadow: 0px 12px 20px 0px rgba(28, 28, 28, 0.519);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  /* ----------------------
+       Sponsor Section 
+   ----------------------*/
+  .sponsor {
+    margin-top: 90px;
+  }
+  .sopnsor-title {
+    width: 100%;
+  }
+  .sponsor-company {
+    flex-direction: column;
+  }
+  .sponsor-company img {
+    margin-top: 30px;
+  }
+}
+
+
+  /* ============================
+       Tablet Device Responsive 
+ =================================== */
+
+@media screen and (min-width:577px ) and (max-width: 992px){
+  /* ---------------------
+       Header Section 
+   --------------------- */
+
+   .navigation {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .top-menu {
+    flex-direction: column;
+  }
+  .banner {
+    margin-top: 50px;
+  }
+  .banner-text h2 {
+    font-size: 40px;
+  }
+
+  /* -------------------------------
+     Quick List Features Section 
+   --------------------------------*/
+  .features {
+    flex-direction: column;
+    padding: 85px 0px;
+  }
+  .feature-image {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-text {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-text h3{
+    font-weight: 600;
+    font-size: 35px;
+    width: 70%;
   }
 
   /* -------------------------------

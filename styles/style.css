@@ -138,11 +138,12 @@ body {
   padding: 73px;
 }
 .feature-text h3 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 53px;
-  color: var(--dark-one-font-color);
-}
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--dark-one-font-color);
+  }
+
 .feature-text p {
   font-weight: 400;
   font-size: 16px;
